@@ -1,0 +1,76 @@
+html {
+    font-family: 'Edu NSW ACT Foundation', 'cursive';
+}
+
+body {
+    margin: 0;
+    background-image: url('https://img.freepik.com/vector-gratis/diferentes-disenos-naves-espaciales_1308-464.jpg?w=740&t=st=1679337585~exp=1679338185~hmac=1cc4fb9bf52b84a7b4dac9e04aea1893de70179ccf55b86225c1c840d83a6b58');
+}
+
+header {
+    background-color: #393640;
+    color: white;
+    padding: 0.5rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.resumen {
+    display: flex;
+    justify-content: center;
+}
+
+section article {
+    float: left;
+    transition: box-shadow 0.3s ease;
+    background-color: #737373;
+    margin: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+section article h2, section form article, section article p {
+    text-align: center;
+    margin: 1rem;
+}
+
+.question {
+    font-family: 'Edu NSW ACT Foundation', 'cursive';
+    border-radius: 0.7rem;
+    width: 200px;
+    margin: 1rem;
+}
+
+.botones {
+    border-radius: 0.6rem;
+    font-family: 'Edu NSW ACT Foundation', 'cursive';
+    font-size: 1rem;
+}
+
+section article:hover, section div:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #BFBFBF;
+    padding: 3rem ;
+    color: white;
+}
+
+footer section {
+    float: right;
+}
+
+footer h3, h4 {
+    margin: 0;
+}

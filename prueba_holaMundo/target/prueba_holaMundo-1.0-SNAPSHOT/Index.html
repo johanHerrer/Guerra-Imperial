@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css" type="text/css"/>
+</head>
+<body>
+    <header>
+        <h1>Star Wars</h1>
+    </header>
+    <!-- Cuerpo de Pgina -->
+    <section class="container">
+        <form action="newjsp.jsp" method="POST">
+            <article class="formulario">
+                <h2>Halcon Milenario</h2>
+                <input type="number" name="numTipoNaves" placeholder="Ingrese el numero de naves:" class="question">
+                <input type="number" name="numPasajeros" placeholder="Ingrese el numero de pasajeros:" class="question" >
+                <input type="number" name="recorido" placeholder="Ingrese la distancia estimada por recorer (Litros/parsec)" class="question">          
+                <input type="number" name="parsec" placeholder="Ingrese la estimación del viaje:" class="question">          
+            </article>
+            <article class="formulario">
+                <h2>Destructor Imperial</h2>
+                <input type="number" name="numTipoNaves2" placeholder="Ingrese el numero de naves:" class="question">
+                <input type="number" name="numPasajeros2" placeholder="Ingrese el numero de pasajeros:" class="question" >
+                <input type="number" name="recorido2" placeholder="Ingrese la distancia estimada por recorer (Litros/parsec)" class="question">          
+                <input type="number" name="parsec2" placeholder="Ingrese la estimación del viaje:" class="question">               
+            </article>
+            <article class="formulario">
+                <h2>Lanzadera Imperial</h2>
+                <input type="number" name="numTipoNaves3" placeholder="Ingrese el numero de naves:" class="question">
+                <input type="number" name="numPasajeros3" placeholder="Ingrese el numero de pasajeros:" class="question" >
+                <input type="number" name="recorido3" placeholder="Ingrese la distancia estimada por recorer (Litros/parsec)" class="question">          
+                <input type="number" name="parsec3" placeholder="Ingrese la estimación del viaje:" class="question">                
+            </article>
+            <article class="formulario">
+                <h2>Supremacy</h2>
+                <input type="number" name="numTipoNaves4" placeholder="Ingrese el numero de naves:" class="question">
+                <input type="number" name="numPasajeros4" placeholder="Ingrese el numero de pasajeros:" class="question" >
+                <input type="number" name="recorido4" placeholder="Ingrese la distancia estimada por recorer (Litros/parsec)" class="question">          
+                <input type="number" name="parsec4" placeholder="Ingrese la estimación del viaje:" class="question">
+                <input type="number" name="ships" placeholder="Ingrese el numero de naves que puede cargar" class="question">
+            </article>
+            <article class="formulario">
+                <h2>At-At</h2>
+                <input type="number" name="numTipoNaves5" placeholder="Ingrese el numero de naves:" class="question">
+                <input type="number" name="numPasajeros5" placeholder="Ingrese el numero de pasajeros:" class="question" >
+                <input type="number" name="recorido5" placeholder="Ingrese la distancia estimada por recorer (Litros/parsec)" class="question">          
+                <input type="number" name="parsec5" placeholder="Ingrese la estimación del viaje:" class="question">
+                <br>        
+                <button class="botones" type="submit" value="Enviar" > Enviar </button>
+            </article>
+        </form>
+    </section>    
+</body>
+</html>
